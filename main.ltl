@@ -1,0 +1,15 @@
+// ltl-linreg/main.ltl
+//
+// Ordinary-least-squares linear regression with residual plots.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-linreg v0.1.0")
+    io::println("Ordinary-least-squares linear regression with residual plots.")
+    0
+}
